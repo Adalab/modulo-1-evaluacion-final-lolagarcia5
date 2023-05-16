@@ -1,0 +1,88 @@
+
+.header{
+  background-image: url("../../assets/images/cover.jpg");
+  min-height: 568px;
+  min-width: 320px;
+  color:#ffffff;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.cover{
+  height: 568px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tittle {
+  color: white;
+  height: 110px;
+  width: 290px;
+  margin: 284px 0 15px 15px;
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 1.31;
+  text-align: center;
+}
+
+.tittle2{
+  color: white;
+  height: 21px;
+  width: 290px;
+  margin: 10px 0 45px 15px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.menu {
+  position: fixed;
+  top:21px; 
+  width: 100%;
+  background-color: transparent;
+  height: 50px;
+
+
+}
+
+.boton{
+  width: 44px;
+  height: 44px;
+  background-color: #0271bc;
+  position:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(“/assets/images/ico-menu.svg”);
+
+}
+
+.boton img{
+  display:block;
+  margin:auto;
+}
+
+.boton2{
+  display:block;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  margin:auto;
+  display: flex;
+  border-color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+
+.boton2 img{
+  display: block;
+  margin:auto;
+  object-fit: contain;
+  
+}
+
+@media (min-width:1280px)
+  {
+
+  }
